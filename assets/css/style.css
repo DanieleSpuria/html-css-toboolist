@@ -11,6 +11,15 @@ body{
 
 header{
   padding: 20px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+main{
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 50px;
   background-color: white;
 }
 
@@ -26,3 +35,38 @@ header .title{
   vertical-align: middle;
 }
 
+/* ADD */
+.add{
+  padding: 20px;
+  border-top-radius: 5px;
+}
+
+.add button{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.add span{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.add #blue{
+  width: 100px;
+  background-color: #47ADF1;
+  border: #47ADF1;
+}
+
+#blue span{
+  color: white;
+}
+
+.add #white{
+  width: 150px;
+  background-color: white;
+  border: 2px solid #E1E4E6;
+}
+
+#white span{
+  color: #E1E4E6;
+}
