@@ -33,7 +33,7 @@ main{
 }
 
 .info{
-  padding: 12px;
+  padding: 10px 12px;
   font-size: 16px;
   color: white;
   border-radius: 15px;
@@ -102,16 +102,38 @@ header .title{
   background-color: white;
 }
 
+.arrow{
+  margin-bottom: 40px;
+}
+
 .arrow h2{
   font-size: 30px;
   margin-bottom: 15px;
 }
 
-.arrow p{
+.arrow .row{
   font-size: 24px;
+  margin-bottom: 35px;
 }
 
-#water-blue{
+.circle.x{
+  color: #EA625C;
+  border-color: #EA625C;
+}
+
+.info.editorial{
   background-color: #45ABEA;
+}
+
+.info.q1{
+  background-color: #9A70E2;
+}
+
+.info.recruilting{
+  background-color: #64C0A9;
+}
+
+.info.mobile{
+  background-color: #F29E33;
 }
 
