@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
   margin: 0;
   padding: 0;
@@ -19,9 +20,26 @@ main{
   width: 80%;
   max-width: 1080px;
   margin: auto;
-  padding: 0 50px;
-  background-color: white;
 }
+
+.circle{
+  width: 50px;
+  height: 50px;
+  padding: 1px;
+  margin-right: 10px;
+  color: #64C0A9;
+  border-radius: 50%;
+  border: 2px solid #64C0A9;
+}
+
+.info{
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+
 
 /* HEADER */
 header img{
@@ -35,24 +53,29 @@ header .title{
   vertical-align: middle;
 }
 
+
+
 /* ADD */
 .add{
-  padding: 20px;
-  border-top-radius: 5px;
+  margin-bottom: 3px;
+  padding: 20px 100px 15px 100px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: white;
 }
 
 .add button{
-  padding: 10px;
+  padding: 14px;
   border-radius: 5px;
 }
 
 .add span{
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 800;
 }
 
 .add #blue{
-  width: 100px;
+  width: 120px;
   background-color: #47ADF1;
   border: #47ADF1;
 }
@@ -62,7 +85,7 @@ header .title{
 }
 
 .add #white{
-  width: 150px;
+  width: 170px;
   background-color: white;
   border: 2px solid #E1E4E6;
 }
@@ -70,3 +93,25 @@ header .title{
 #white span{
   color: #E1E4E6;
 }
+
+
+
+/* CONTAINER */
+.container{
+  padding: 40px 100px;
+  background-color: white;
+}
+
+.arrow h2{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.arrow p{
+  font-size: 24px;
+}
+
+#water-blue{
+  background-color: #45ABEA;
+}
+
