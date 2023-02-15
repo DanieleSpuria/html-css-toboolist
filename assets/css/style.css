@@ -17,135 +17,141 @@ header{
   background-color: white;
 }
 
-main{
+.container{
+  border-radius: 5px;
   width: 80%;
   max-width: 1080px;
   margin: auto;
-}
-
-.circle{
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  color: #64C0A9;
-  border-radius: 50%;
-  border: 2px solid #64C0A9;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 28px;
-  display: inline-block;
-}
-
-.info{
-  padding: 10px 12px;
-  font-size: 16px;
-  color: white;
-  border-radius: 15px;
+  background-color: white;
 }
 
 
 
 /* HEADER */
 header img{
-  width: 90px;
+  width: 75px;
   vertical-align: middle;
 }
 
 header .title{
   display: inline-block;
-  font-size: 35px;
+  font-size: 60px;
+  font-weight: 900;
   vertical-align: middle;
 }
 
 
 
-/* ADD */
-.add{
+/* BOTTONI */
+.button{
   margin-bottom: 3px;
   padding: 20px 100px 15px 100px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
   background-color: white;
 }
 
-.add button{
-  padding: 14px;
-  border-radius: 5px;
-}
-
-.add span{
+.button button{
+  color: white;
   font-size: 18px;
   font-weight: 800;
+  padding: 10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.add #blue{
+.button.blue{
   width: 120px;
   background-color: #47ADF1;
-  border: #47ADF1;
+  border: 2px solid #47ADF1;
 }
 
-#blue span{
-  color: white;
-}
-
-.add #white{
+.button.white{
+  color: #E1E4E6;
   width: 170px;
   background-color: white;
   border: 2px solid #E1E4E6;
 }
 
-#white span{
-  color: #E1E4E6;
+
+
+/* LISTA */
+.lista{
+  width: 100%;
+  padding: 30px 100px 40px 100px;
+  border-top: 2px solid #F6F8F9;
 }
 
-
-
-/* CONTAINER */
-.container{
-  padding: 40px 100px;
-  background-color: white;
+.lista ul{
+  list-style-type: none;
 }
 
-.arrow{
-  margin-bottom: 40px;
-}
-
-.arrow h2{
+.lista h2{
   font-size: 30px;
   margin-bottom: 15px;
 }
 
-.arrow .row{
+.lista h2::before{
+  content: '\25BE';
+  padding-right: 5px;
+}
+
+.lista li{
   font-size: 24px;
   margin-bottom: 35px;
 }
 
-.circle.x{
-  color: #EA625C;
-  border-color: #EA625C;
+.circle::before{
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  display: inline-block;
 }
 
-.info.editorial{
+.circle.v::before{
+  content: '\2713';
+  color: #64C0A9;
+  border: 2px solid #64C0A9;
+}
+
+.circle.x::before{
+  content: '\2717';
+  color: #EA625C;
+  border: 2px solid #EA625C;
+}
+
+.tag{
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+.tag.editorial{
   background-color: #45ABEA;
 }
 
-.info.q1{
+.tag.q1{
   background-color: #9A70E2;
 }
 
-.info.recruilting{
+.tag.recruilting{
   background-color: #64C0A9;
 }
 
-.info.mobile{
+.tag.mobile{
   background-color: #F29E33;
 }
 
-.info.website{
+.tag.website{
   background-color: #D762A0;
 }
 
-.info.sales{
+.tag.sales{
   background-color: #B0C926;
 }
+
 
